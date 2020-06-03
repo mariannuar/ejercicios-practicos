@@ -1,0 +1,44 @@
+body{
+	background-color: lightgray;
+}
+h2{
+	text-align: center;
+	margin-top: 2rem;
+	color: blueviolet;
+}
+
+.array-cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 1rem 1rem;
+}
+
+.array-card{
+	justify-content: center;
+	width: 45%;
+	height: 10rem;
+	background: #F9F9F9;
+	box-shadow: 0px 0px 8px rgba(155, 15, 173, 0.171);
+	border-radius: 25px;
+	margin: 2rem 0rem;
+}
+
+.card-body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.card-title{
+	color: blueviolet;
+	font-size: 1.8rem;
+}
+
+.card-text{
+	overflow-y: hidden;
+	color: #373838;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	font-size: 1rem;
+}
